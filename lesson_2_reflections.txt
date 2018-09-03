@@ -5,6 +5,8 @@ When initializing a repository, a file named '.git' will be created under the di
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+Some files in the working directory may not be in the staging area, while some may be. Therefore, staging area can be seen as an container for files waiting to be commited in the repository.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
