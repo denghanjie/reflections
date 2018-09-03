@@ -1,14 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-When initializing a repository, a file named '.git' will be created under the directory. I can use log status to see what had happened and the status of this newly-created repository.
+	When initializing a repository, a file named '.git' will be created under the directory. I can use log status to see what had happened and the status of this newly-created repository.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-Some files in the working directory may not be in the staging area, while some may be. Therefore, staging area can be seen as an container for files waiting to be commited in the repository.
+	Some files in the working directory may not be in the staging area, while some may be. Therefore, staging area can be seen as an container for files waiting to be commited in the repository.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Whenever I changed the files in the working directory, I can use 'git add <file>' to add the modified files into staging area. If I want to see the differences between the two, I can use 'git diff' without arguments. When I am sure this change is big enough to be logical change, I commit it to the repository. But before I do, I can check the different between staging area and the most recent commit using 'git diff --staged'.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
