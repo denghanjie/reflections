@@ -14,8 +14,12 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	Branches are helpful when I need experimental features that will develop in their own way.
 
 How do the diagrams help you visualize the branch structure?
+
+	I can see the tips of each branch, including master branch. Also, from the tips, we can trace back all branches to list the history of commits. It's important to note that some commits are unreachable because each commit only stores reference to the previous commit, not vice versa.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
