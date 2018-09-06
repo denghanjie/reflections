@@ -19,8 +19,7 @@ use one instead of another?
 
     Fork is an action to copy a repository on the Github from someone else to our account.
     Clone is also an action to copy but it can copy repository on the Github to the local
-    computer or vice versa. And it can also copy repository from on location at the local 
-    computer to another. Branch is an action of add new commits non-linearly. The new commit will not be appended to the tip of the master branch but to be a new tip of a branch itself.  
+    computer or vice versa. Pluse, after fork, the repostiory on my Github account will always present the link back to the orignal repository on the Github. And it can also copy repository from one location at the local computer to another location. Branch is an action of adding new commits non-linearly. The new commit will not be appended to the tip of the master branch but to be a new tip of a branch itself.  
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
